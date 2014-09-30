@@ -1,7 +1,11 @@
+//alert("Hola mamá, ya sé programar!!!");
+
 var peso;
 var pesoEnMarte;
 
 //alert("¿Quieres saber tu peso en Marte?");
+
+//var pregunta = confirm("¿Quieres saber tu peso en Marte?");
 if (confirm("¿Quieres saber tu peso en Marte?"))
 {
 	peso = prompt("¿Cuál es tu peso en kg?", "70");
@@ -15,14 +19,3 @@ else
 {
 	alert("Adios.");
 }
-
-//alert("Hola mamá, ya sé programar!!!");
-
-//var nombre = "Freddy";
-//var apellido = "Vega";
-//var edad = 28;
-
-////alert(nombre + " " + apellido + "\n" + edad + " años");
-
-//alert("2"+5+8);
-//alert("2"+5*8);
