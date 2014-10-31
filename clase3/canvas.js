@@ -33,18 +33,18 @@ function dibujarGrilla()
 	{
 		punto = (linea * anchoLinea) - 0.5;
 		pony.beginPath();
-		pony.strokeStyle = "#AAA";
+		//pony.strokeStyle = "#AAA";
 		pony.moveTo(punto, 0.5);
 		pony.lineTo(punto, ancho - 0.5);
 		pony.stroke();
 		pony.closePath();
 	}
 
-	for(linea = 0; linea >= limiteY; linea++)
+	for(linea = 0; linea <= limiteY; linea++)
 	{
 		punto = (linea * anchoLinea) - 0.5;
 		pony.beginPath();
-		pony.strokeStyle = "#AAA";
+		//pony.strokeStyle = "#AAA";
 		pony.moveTo(0.5, punto);
 		pony.lineTo(alto - 0.5, punto);
 		pony.stroke();

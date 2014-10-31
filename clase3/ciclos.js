@@ -21,3 +21,4 @@ function calcular ()
 	}
 	c.innerHTML = "<strong>" + calculo + "</strong>";
 }
+
